@@ -25,7 +25,7 @@ const Sign = () => {
         "color:red;font-size:3vh;text-align:center;";
     } else {
       document.querySelector("#warning").style = "display:none";
-      const id = users.length;
+      const id = users.length + 1;
       const obj = {
         id: id,
         name: uname,
@@ -39,7 +39,6 @@ const Sign = () => {
       document.querySelector("#password").value = "";
       document.querySelector("#uname").value = "";
       document.querySelector("#name").value = "";
-      document.querySelector("#number").value = "";
     }
   };
 
